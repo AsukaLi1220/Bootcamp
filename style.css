@@ -35,7 +35,13 @@ body {
 
 
 #yuan{
-	margin-left:620px;
-	margin-top:-225px;
+	margin-left:630px;
+	margin-top:-230px;
 
+}
+
+#explore{
+	color:white;
+	margin-left:-230px;
+	margin-top:-400px;
 }

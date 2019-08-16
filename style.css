@@ -1,47 +1,270 @@
-body {
-
-  background-color: black;
-  background-image:url("111.jpg");
-  background-size: 1920px 1080px;
-  background-repeat: no-repeat;
+body{
+	width: 600vw;
+	height: 100vh;
+	background-color: white;
 }
 
-#hanzo{
-	margin-left:1440px;
-	margin-top:0px;
+#moonlanding{
+	color:#c7c7c7;
+	position:fixed;
+	top:6vh;
+	left:6vh;
+    font-family: 'Questrial', sans-serif;
+
 }
 
-#kitty{
+#volume{
+	position:fixed;
+	top:6vh;
+	right:6vh;
+	width:24px;
+	height:24px;
+}
+
+#asuka{
+	position:fixed;
+	bottom:3vh;
+	right:6vh;
+	color:#c7c7c7;
+	font-size: 12px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#image111{
+	width:100vw;
+	height:100vh;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+#oval{
+	width:40vh;
+	height:40vh;
+	position:absolute;
+	top:50vh;
+	left:50vw;
+	transform: translate(-50%,-50%);
+}
+
+#wechoose{
+	position:absolute;
+	top:48vh;
+	left:50vw;
 	color:white;
-	text-align: center;
-    font-size: 16px;
-    font-family: 'Quattrocento Sans', sans-serif;
-
- 
-    
-}
-
-
-
-#genji{
-	color:white;
-	font-size:12px;
-	margin-left:48px;
-	margin-top:48px;
-	font-family: 'Questrial', sans-serif;
-
-
-}
-
-
-#yuan{
-	margin-left:630px;
-	margin-top:-230px;
-
+	transform: translate(-50%,-50%);
+	font-family: 'Quicksand', sans-serif;
 }
 
 #explore{
-	color:white;
-	margin-left:-230px;
-	margin-top:-400px;
+    color:white;
+	position:absolute;
+	top:66vh;
+	left:50vw;
+	transform: translate(-50%,-50%);
+	font-family: 'Quicksand', sans-serif;
+}
+
+#tribute{
+	color:#212121;
+	position:absolute;
+	top:36vh;
+	left:108vw;
+	font-size:32px;
+	width:20vw;
+}
+
+#moonlandingtwo{
+	color:#212121;
+	position:absolute;
+	top:30vh;
+	left:108vw;
+	font-size:16px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#sputnik{
+	position:absolute;
+	top:40vh;
+	left:155vw;
+	transform: translate(-50%,-50%);
+	width:36vw;
+	height:38vh;
+}
+
+#beginning{
+	color:#212121;
+	position:absolute;
+	top:72vh;
+	left:149vw;
+	transform: translate(-50%,-50%);
+	width:24vw;
+	font-size:16px;
+	line-height:2.0;
+
+}
+
+#doubts{
+	color:#212121;
+	position:absolute;
+	top:28vh;
+	left:195vw;
+	transform: translate(-50%,-50%);
+	width:24vw;
+	font-size:16px;
+	line-height:2.0;
+}
+
+#pioneer{
+	position:absolute;
+	top:66vh;
+	left:193vw;
+	transform: translate(-50%,-50%);
+	width:20vw;
+	height:32vh;
+}
+
+#failed{
+	color:#212121;
+	position:absolute;
+	top:34vh;
+	left:214vw;
+	font-size:32px;
+	width:20vw;
+}
+
+#luna{
+	color:#212121;
+	position:absolute;
+	top:52vh;
+	left:226vw;
+	transform: translate(-50%,-50%);
+	width:24vw;
+	font-size:16px;
+	line-height:2.0;
+
+}
+
+#lunaimg{
+	position:absolute;
+	top:50vh;
+	left:256vw;
+	transform: translate(-50%,-50%);
+	width:20vw;
+	height:32vh;
+}
+
+#lunaimgg{
+	position:absolute;
+	top:0vh;
+	left:276vw;
+	width:42vw;
+	height:100vh;
+}
+
+#firstmanned{
+	color:#212121;
+	position:absolute;
+	top:70vh;
+	left:343vw;
+	transform: translate(-50%,-50%);
+	width:24vw;
+	font-size:16px;
+	line-height:2.0;
+
+}
+
+#first{
+	color:#212121;
+	position:absolute;
+	top:60vh;
+	left:343vw;
+	transform: translate(-50%,-50%);
+	font-size:32px;
+	width:24vw;
+
+}
+
+#jiajialin{
+	position:absolute;
+	top:40vh;
+	left:346vw;
+	transform: translate(-50%,-50%);
+	width:30vw;
+	height:32vh;
+	font-size:16px;
+	line-height:2.0;
+}
+
+#kennedy{
+	color:#212121;
+	position:absolute;
+	top:48vh;
+	left:382vw;
+	transform: translate(-50%,-50%);
+	width:20vw;
+	font-size:16px;
+	line-height:2.0;
+}
+
+#choosemoon{
+	color:#212121;
+	position:absolute;
+	top:32vh;
+	left:382vw;
+	transform: translate(-50%,-50%);
+	font-size:32px;
+	width:20vw;
+}
+
+#wechooseimg{
+	position:absolute;
+	top:51vh;
+	left:430vw;
+	transform: translate(-50%,-50%);
+} 
+
+#choosemovie{
+	position:absolute;
+	top:0vh;
+	left:470vw;
+	width:100vw;
+	height:100vh;
+}
+
+#success{
+   color:#212121;
+	position:absolute;
+	top:50vh;
+	left:480vw;
+	transform: translate(-50%,-50%);
+	width:20vw;
+	font-size:16px;
+	line-height:2.0;
+}
+
+#landing{
+	color:#212121;
+	position:absolute;
+	top:30vh;
+	left:480vw;
+	transform: translate(-50%,-50%);
+	font-size:32px;
+	width:20vw;
+}
+
+#landingmovie{
+	position:absolute;
+	top:0vh;
+	left:500vw;
+	width:100vw;
+	height:100vh;
+}
+
+.smalltext{
+	font-family: 'Livvic', sans-serif;
+}
+
+.largetext{
+	font-family: 'Open Sans', sans-serif;
 }
